@@ -1,7 +1,7 @@
-#ifndef INC_GPIO_H_
-#define INC_GPIO_H_
+#ifndef STM32F4xx_GPIO_H_
+#define STM32F4xx_GPIO_H_
 
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 typedef struct
 {
@@ -98,5 +98,5 @@ GPIO_PinState_t GPIO_ReadPin(GPIO_TypeDef_t *GPIOx, uint16_t pinNumber);
 void GPIO_LockPin(GPIO_TypeDef_t *GPIOx, uint16_t pinNumber);
 void GPIO_TogglePin(GPIO_TypeDef_t *GPIOx, uint16_t pinNumber);
 
-#endif /* INC_GPIO_H_ */
+#endif /* STM32F4xx_GPIO_H_ */
 

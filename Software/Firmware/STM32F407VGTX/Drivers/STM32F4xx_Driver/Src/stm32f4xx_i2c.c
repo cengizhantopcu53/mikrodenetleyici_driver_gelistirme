@@ -1,4 +1,4 @@
-#include "i2c.h"
+#include "stm32f4xx_i2c.h"
 
 /*
  * @brief  I2C_PeriphCmd, Enable or Disable I2C peripheral

@@ -1,7 +1,7 @@
-#ifndef INC_EXTI_H_
-#define INC_EXTI_H_
+#ifndef STM32F4xx_EXTI_H_
+#define STM32F4xx_EXTI_H_
 
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 typedef struct
 {
@@ -62,4 +62,4 @@ void EXTI_Init(EXTI_InitTypeDef_t *EXTI_InitStruct);
 void EXTI_LineConfig(uint8_t PortSource, uint8_t EXTI_LineSource);
 void NVIC_EnableInterrupt(IRQn_TypeDef_t IRQNumber);
 
-#endif /* INC_EXTI_H_ */
+#endif /* STM32F4xx_EXTI_H_ */

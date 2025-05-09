@@ -1,4 +1,4 @@
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 static void GPIO_Config();
 static void EXTI_Config();

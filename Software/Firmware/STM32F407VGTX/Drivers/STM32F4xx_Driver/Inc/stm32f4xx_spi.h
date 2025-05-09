@@ -1,7 +1,7 @@
-#ifndef INC_SPI_H_
-#define INC_SPI_H_
+#ifndef STM32F4xx_SPI_H_
+#define STM32F4xx_SPI_H_
 
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 /*
  * @defgroup SPI_BaudeRates
@@ -118,4 +118,4 @@ void SPI_ReceiveData_IT(SPI_HandleTypedef_t *SPI_Handle, uint8_t *pData, uint16_
 void SPI_InterruptHandler(SPI_HandleTypedef_t *SPI_Handle);
 SPI_Flagstatus_t SPI_GetFlagStatus(SPI_HandleTypedef_t *SPI_Handle, uint16_t SPI_Flag);
 
-#endif /* INC_SPI_H_ */
+#endif /* STM32F4xx_SPI_H_ */

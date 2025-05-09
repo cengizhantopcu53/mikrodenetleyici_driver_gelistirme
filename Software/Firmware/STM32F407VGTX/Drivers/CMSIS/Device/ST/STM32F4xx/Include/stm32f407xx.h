@@ -1,5 +1,5 @@
-#ifndef INC_STM32F407XX_H_
-#define INC_STM32F407XX_H_
+#ifndef STM32F407XX_H_
+#define STM32F407XX_H_
 
 #include <stdint.h>
 #include <string.h>
@@ -374,18 +374,13 @@ typedef struct
 #define SPI_BSY_Flag                (0x1U << SPI_SR_BSY)
 #define SPI_RXNE_Flag               (0x1U << SPI_SR_RXNE)
 
-#define USART_TXE_Flag                (0x1U << USART_SR_TXE)
-#define USART_TC_Flag                 (0x1U << USART_SR_TC)
-#define USART_RXNE_Flag                 (0x1U << USART_SR_RXNE)
+#define USART_TXE_Flag              (0x1U << USART_SR_TXE)
+#define USART_TC_Flag               (0x1U << USART_SR_TC)
+#define USART_RXNE_Flag             (0x1U << USART_SR_RXNE)
 
 /*
  * Peripheral and Communication Units
  */
-#include "rcc.h"
-#include "gpio.h"
-#include "exti.h"
-#include "spi.h"
-#include "usart.h"
-#include "i2c.h"
+#include "stm32f4xx_conf.h"
 
-#endif /* INC_STM32F407XX_H_ */
+#endif /* STM32F407XX_H_ */

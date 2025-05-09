@@ -1,7 +1,7 @@
-#ifndef INC_RCC_H_
-#define INC_RCC_H_
+#ifndef STM32F4xx_RCC_H_
+#define STM32F4xx_RCC_H_
 
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 /*
  * RCC AHB1 Peripherals Clock Control Macro Definitions
@@ -98,4 +98,4 @@ uint32_t RCC_GetHClock(void);
 uint32_t RCC_GetPClock1(void);
 uint32_t RCC_GetPClock2(void);
 
-#endif /* INC_RCC_H_ */
+#endif /* STM32F4xx_RCC_H_ */

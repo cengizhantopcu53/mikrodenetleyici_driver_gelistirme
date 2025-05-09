@@ -1,4 +1,4 @@
-#include "exti.h"
+#include "stm32f4xx_exti.h"
 
 /*
  * @brief  EXTI_Init for Valid GPIO port and Line Number

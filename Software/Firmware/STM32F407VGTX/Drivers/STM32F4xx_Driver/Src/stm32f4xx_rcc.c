@@ -1,4 +1,4 @@
-#include "rcc.h"
+#include "stm32f4xx_rcc.h"
 
 const uint8_t AHB_Prescaler[] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
 const uint8_t APB_Prescaler[] = {0, 0, 0, 0, 1, 2, 3, 4};

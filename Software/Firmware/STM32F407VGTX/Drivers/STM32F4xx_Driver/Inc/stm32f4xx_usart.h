@@ -1,7 +1,7 @@
-#ifndef INC_USART_H_
-#define INC_USART_H_
+#ifndef STM32F4xx_USART_H_
+#define STM32F4xx_USART_H_
 
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 /*
  * @defgroup Mode_Types
@@ -102,4 +102,4 @@ void USART_ReceiveData_IT(USART_HandleTypeDef_t *USART_Handle, uint8_t *pData, u
 void USART_InterruptHandler(USART_HandleTypeDef_t *USART_Handle);
 USART_Flagstatus_t USART_GetFlagStatus(USART_HandleTypeDef_t *USART_Handle, uint16_t USART_Flag);
 
-#endif /* INC_USART_H_ */
+#endif /* STM32F4xx_USART_H_ */

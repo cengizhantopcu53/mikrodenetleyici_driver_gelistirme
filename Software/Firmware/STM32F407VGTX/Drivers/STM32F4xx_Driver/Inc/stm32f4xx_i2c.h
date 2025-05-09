@@ -1,7 +1,7 @@
-#ifndef INC_I2C_H_
-#define INC_I2C_H_
+#ifndef STM32F4xx_I2C_H_
+#define STM32F4xx_I2C_H_
 
-#include "stm32f407xx.h"
+#include "stm32f4xx.h"
 
 /*
  * @defgroup I2C_ClockSpeeds
@@ -61,4 +61,4 @@ typedef struct
 void I2C_Init(I2C_HandleTypeDef_t *I2C_Handle);
 void I2C_PeriphCmd(I2C_TypeDef_t *I2Cx, FunctionalState_t stateOfI2C);
 
-#endif /* INC_I2C_H_ */
+#endif /* STM32F4xx_I2C_H_ */
